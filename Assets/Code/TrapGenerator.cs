@@ -57,7 +57,7 @@ public class TrapGenerator : MonoBehaviour
             BOSSHP = 10;
             MAXBOSSHP = 10;
             GameObject b = Instantiate<GameObject>(Resources.Load<GameObject>("Prefabs/Bosses/Boss_Level_" + PlayerPrefs.GetInt("DateLevel")));
-
+            b.name = "Boss_Level";
         }
         
     }
@@ -192,7 +192,7 @@ public class TrapGenerator : MonoBehaviour
                             GameObject Trap = Instantiate<GameObject>(Resources.Load<GameObject>("Prefabs/Traps/END"), Segment[i].transform);
                             Trap.transform.position = new Vector3(Segment[i].transform.position.x, pl.GetPositions()[2].y, 1);
 
-                            Destroy(GameObject.Find("Boss_Level_" + PlayerPrefs.GetInt("DateLevel") + "(Clone)"));
+                            Destroy(GameObject.Find("Boss_Level"));
                         }
 
                     }

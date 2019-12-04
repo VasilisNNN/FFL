@@ -75,6 +75,7 @@ public class Player : MonoBehaviour {
     private bool _Character_Punch;
     private float _Character_Block;
     public bool PunchDelay;
+    private bool Fall;
     public bool AlwaysMove;
     private List<Vector3> Positions = new List<Vector3>();
     public int MaxPositions;
@@ -96,7 +97,7 @@ public class Player : MonoBehaviour {
     private List<AudioClip> DamageClips = new List<AudioClip>();
     private List<AudioClip> HitClips = new List<AudioClip>();
     private List<AudioClip> BossDamageClips = new List<AudioClip>();
-
+    
     private void Awake()
     {
         WalkAU = GetComponent<AudioSource>();
@@ -316,6 +317,7 @@ public class Player : MonoBehaviour {
                 
                     
                 if (PunchDelay && PunchTimer < Time.fixedTime) PunchDelay = false;
+                if (transform.position.x <= XPos) Fall = false;
 
                 float HP_Width = Screen.width - WBorder * 8;
                 if (TG != null)
@@ -332,10 +334,9 @@ public class Player : MonoBehaviour {
                             if (Fightcoll_obj.Contains(bosses[m])&&PunchTimer>Time.fixedTime&& !PunchDelay)
                             {
                                 TG.BOSSHP--;
-                                _transform.position = GameObject.Find("PlayerStart").transform.position;
+                                XPos = 0;
                                 DestroyAllTraps();
-                                for (int b = 0; b < mines.Length; b++)
-                                Destroy(mines[b]);
+                               
                                 
                                     if (!BossDamage.isPlaying)
                                 {
@@ -343,6 +344,7 @@ public class Player : MonoBehaviour {
                                     BossDamage.Play();
                                 }
                                 PunchDelay = true;
+                                Fall = true;
                             }
 
                         }
@@ -465,12 +467,12 @@ public class Player : MonoBehaviour {
                
                     if (transform.position.x < SpeedX * XPos)
                     {
-                        InvisTimer = Time.fixedTime + 0.1f;
+                       // InvisTimer = Time.fixedTime + 0.1f;
                         transform.position = new Vector3(transform.position.x + SpeedPos, transform.position.y, transform.position.z);
                     }
                     if (transform.position.x > SpeedX * XPos)
                     {
-                        InvisTimer = Time.fixedTime + 0.1f;
+                        //InvisTimer = Time.fixedTime + 0.1f;
                         transform.position = new Vector3(transform.position.x - SpeedPos, transform.position.y, transform.position.z);
                     }
                 
@@ -579,6 +581,8 @@ public class Player : MonoBehaviour {
         }
         else anim.SetBool("Punch", true);
 
+        anim.SetBool("Fall", Fall);
+        
         if (BlockTimer < Time.fixedTime) anim.SetBool("Block", false);
 
         for (int i = 0; i < coll_obj.Count; i++)
@@ -615,7 +619,7 @@ public class Player : MonoBehaviour {
         if (Application.loadedLevelName != "StartMenu")
             PlayerPrefs.SetInt("Continue", 1);
         
-             if (MaxSpeed != 0&&!Options)Flip();
+             if (MaxSpeed != 0&&!Options&&!AlwaysMove)Flip();
 
            
 
@@ -649,14 +653,14 @@ public class Player : MonoBehaviour {
                 if (_horizontal < 0 && XPos > 0 && _horizontal_button_Push)
                 {
                     XPos--;
-                    WalkAU.pitch = 1 + 0.1f * XPos;
+                  //  WalkAU.pitch = 1 + 0.1f * XPos;
                     WalkAU.clip = Steps[Random.Range(0, Steps.Length)];
                     WalkAU.Play();
                 }
                 if (_horizontal > 0 && XPos < 10 && _horizontal_button_Push)
                 {
                     XPos++;
-                    WalkAU.pitch = 1 - 0.1f * XPos;
+                  //  WalkAU.pitch = 1 - 0.1f * XPos;
                     WalkAU.clip = Steps[Random.Range(0, Steps.Length)];
                     WalkAU.Play();
                 }
@@ -741,9 +745,11 @@ public class Player : MonoBehaviour {
 
         if (!AlwaysMove)
         {
+            Animator LegsAnim = transform.Find("LegsSPRT").GetComponent<Animator>();
+
             if (_normalHSpeed != 0 || _normalVSpeed != 0)
-                anim.SetBool("Walk", true);
-            else anim.SetBool("Walk", false);
+                LegsAnim.SetBool("Walk", true);
+            else LegsAnim.SetBool("Walk", false);
         }else anim.SetBool("Walk", true);
 
 
@@ -970,7 +976,7 @@ public class Player : MonoBehaviour {
         if (_gameover)
         {
             GUI.Box(new Rect(Screen.width / 2 - 150, Screen.height / 2 - 100, 300, 200), "GAME OVER", skin.customStyles[0]);
-            GUI.Box(new Rect(Screen.width / 2 - 150, Screen.height / 2 + 100, 300, 200), "e - to restart", skin.customStyles[0]);
+            GUI.Box(new Rect(Screen.width / 2 - 150, Screen.height / 2 + 100, 300, 200), "Space - to restart", skin.customStyles[0]);
         }
         
         if (DrawParameterChange >0)
@@ -1125,7 +1131,7 @@ public class Player : MonoBehaviour {
                     if (push[i].GetComponent<CollList>().GetCollList().Contains(bosses[m]) && push[i].GetComponent<CollList>().Pushed)
                     {
                         BlowThis(push[i]);
-                        GameObject.Find("Boss_Level_" + PlayerPrefs.GetInt("CurrentLevel") + "(Clone)").GetComponent<Boss>().DeathTimer = Time.fixedTime + 0.75f;
+                        GameObject.Find("Boss_Level").GetComponent<Boss>().DeathTimer = Time.fixedTime + 0.75f;
                         TG.BOSSHP--;
                     }
 

@@ -1,0 +1,461 @@
+fileFormatVersion: 2
+guid: 4a0b6d4363340e04f9e8318fe2a677f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8508176567821869434
+    second: DatePlayerCity_0
+  - first:
+      213: -226529114673824977
+    second: DatePlayerCity_1
+  - first:
+      213: 9096150516351137293
+    second: DatePlayerCity_2
+  - first:
+      213: -1225023615032415791
+    second: DatePlayerCity_3
+  - first:
+      213: 2797969680391935339
+    second: DatePlayerCity_4
+  - first:
+      213: -5234554547603825441
+    second: DatePlayerCity_5
+  - first:
+      213: -1186594126039175985
+    second: DatePlayerCity_6
+  - first:
+      213: -8816359973629435113
+    second: DatePlayerCity_7
+  - first:
+      213: 3724003971279138049
+    second: DatePlayerCity_8
+  - first:
+      213: -4783753260352120688
+    second: DatePlayerCity_9
+  - first:
+      213: -3800060160168326088
+    second: DatePlayerCity_10
+  - first:
+      213: 5327320349227517507
+    second: DatePlayerCity_11
+  - first:
+      213: -1998988781335953422
+    second: DatePlayerCity_12
+  - first:
+      213: 1128791206015254738
+    second: DatePlayerCity_13
+  - first:
+      213: 2882805353609286052
+    second: DatePlayerCity_14
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DatePlayerCity_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 122
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51239bea2c79de841a79ba113adfb92b
+      internalID: -8508176567821869434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerCity_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 99
+        width: 25
+        height: 37
+      alignment: 9
+      pivot: {x: 0.8505116, y: 0.83833146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056f937acb4f57a498b5ce6d4c7caca6
+      internalID: -226529114673824977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerCity_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 99
+        width: 25
+        height: 37
+      alignment: 9
+      pivot: {x: 0.8705408, y: 0.83156484}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c36a0fc004299498c7c9be88715dd5
+      internalID: 9096150516351137293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerCity_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 89
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6aeb8be83cc96f43abe2caadbd0e6af
+      internalID: -1225023615032415791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerCity_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 100
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f798618c268d309488a8edac83a77c1d
+      internalID: 2797969680391935339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerCity_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 82
+        width: 13
+        height: 14
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f227515f44bc8444393ba229e11b8599
+      internalID: -5234554547603825441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerCity_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 50
+        width: 13
+        height: 14
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4321db5bc272b46b2ec3424c364662
+      internalID: -1186594126039175985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerCity_7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 50
+        width: 13
+        height: 14
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db272b627460be1418a2e75242d84e12
+      internalID: -8816359973629435113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerCity_8
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 50
+        width: 13
+        height: 14
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42974d3f94c7f5d48b0d515e60b71d87
+      internalID: 3724003971279138049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerCity_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 51
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56eca0b4e67197841945bc7cb0fd676a
+      internalID: -4783753260352120688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerCity_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 33
+        width: 13
+        height: 14
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a45c4fda4f3c704ba1a5e499a12dc27
+      internalID: -3800060160168326088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerCity_11
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 33
+        width: 13
+        height: 14
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb4e59c31d083249812d4f5411acd46
+      internalID: 5327320349227517507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerCity_12
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 33
+        width: 13
+        height: 14
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38f01251e1ba914faf5aae42dc9df2d
+      internalID: -1998988781335953422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerCity_13
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 15
+        width: 13
+        height: 14
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e4afe6272037e4cb9c2ec191f37fee
+      internalID: 1128791206015254738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerCity_14
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 15
+        width: 13
+        height: 14
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9087fa3f7968df940974919d8962ac3f
+      internalID: 2882805353609286052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 820d32759304aa54db57a9309f0ad4d5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

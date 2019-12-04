@@ -1,0 +1,935 @@
+fileFormatVersion: 2
+guid: 0f81288187f7834468f90a8928926e5b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2948980220351914088
+    second: DatePlayerFight_0
+  - first:
+      213: -9070236268570619101
+    second: DatePlayerFight_1
+  - first:
+      213: -3536659165117300131
+    second: DatePlayerFight_2
+  - first:
+      213: 2067613672184137307
+    second: DatePlayerFight_3
+  - first:
+      213: 6529940858207711072
+    second: DatePlayerFight_4
+  - first:
+      213: -2383935011693715
+    second: DatePlayerFight_5
+  - first:
+      213: -8273961401500166332
+    second: DatePlayerFight_6
+  - first:
+      213: -2718890701253235316
+    second: DatePlayerFight_7
+  - first:
+      213: -767445541412111136
+    second: DatePlayerFight_8
+  - first:
+      213: 4061528868909537422
+    second: DatePlayerFight_9
+  - first:
+      213: 1513069496699232004
+    second: DatePlayerFight_10
+  - first:
+      213: 5164611020294203457
+    second: DatePlayerFight_11
+  - first:
+      213: -2489947087447948796
+    second: DatePlayerFight_12
+  - first:
+      213: -6299359953413734640
+    second: DatePlayerFight_13
+  - first:
+      213: 8497021833519539441
+    second: DatePlayerFight_14
+  - first:
+      213: -5559462328926866726
+    second: DatePlayerFight_15
+  - first:
+      213: 4209870611846136677
+    second: DatePlayerFight_16
+  - first:
+      213: 6939816008171699229
+    second: DatePlayerFight_17
+  - first:
+      213: 8135201451928824975
+    second: DatePlayerFight_18
+  - first:
+      213: -5816100621953918475
+    second: DatePlayerFight_19
+  - first:
+      213: -5577077443730379243
+    second: DatePlayerFight_20
+  - first:
+      213: 2363125386209561778
+    second: DatePlayerFight_21
+  - first:
+      213: 8325777497132476141
+    second: DatePlayerFight_22
+  - first:
+      213: -1331273437008938611
+    second: DatePlayerFight_23
+  - first:
+      213: 5816642885962824338
+    second: DatePlayerFight_24
+  - first:
+      213: -7156179168821427761
+    second: DatePlayerFight_25
+  - first:
+      213: -3454126132942989100
+    second: DatePlayerFight_26
+  - first:
+      213: 2525801500669878407
+    second: DatePlayerFight_27
+  - first:
+      213: -4380457981071222675
+    second: DatePlayerFight_28
+  - first:
+      213: -175641890013611183
+    second: DatePlayerFight_29
+  - first:
+      213: -6342883226303599650
+    second: DatePlayerFight_30
+  - first:
+      213: -3699325975432309827
+    second: DatePlayerFight_31
+  - first:
+      213: -5020959504627058699
+    second: DatePlayerFight_32
+  - first:
+      213: 2627163057098845177
+    second: DatePlayerFight_33
+  - first:
+      213: -5131930568303631316
+    second: DatePlayerFight_34
+  - first:
+      213: -8946187476348173695
+    second: DatePlayerFight_35
+  - first:
+      213: 404219519796980790
+    second: DatePlayerFight_36
+  - first:
+      213: 2295956032664379277
+    second: DatePlayerFight_37
+  - first:
+      213: -1860563454929590475
+    second: DatePlayerFight_38
+  - first:
+      213: 1477934173389360464
+    second: DatePlayerFight_39
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DatePlayerFight_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 224
+        width: 49
+        height: 44
+      alignment: 9
+      pivot: {x: 0.43786493, y: 0.11363671}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6a20e5684cd37419795a5fa3f1daf3
+      internalID: 2948980220351914088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 222
+        width: 49
+        height: 46
+      alignment: 9
+      pivot: {x: 0.48629293, y: 0.15432607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5f22056df00534bbb2a8e67a6ba878
+      internalID: -9070236268570619101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 220
+        width: 49
+        height: 49
+      alignment: 9
+      pivot: {x: 0.48629326, y: 0.20856896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fecfc9cddc672d41b69b2f4aea5b586
+      internalID: -3536659165117300131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_3
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 216
+        width: 49
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5022103, y: 0.24894685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbf1badbf250c141930dc96d0012938
+      internalID: 2067613672184137307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_4
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 216
+        width: 49
+        height: 53
+      alignment: 9
+      pivot: {x: 0.49010327, y: 0.26373896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afa1039190dd4747926ba1c87fc0167
+      internalID: 6529940858207711072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_5
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 216
+        width: 49
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4920816, y: 0.26373953}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a45364b809d6140905e7f4300fdf17
+      internalID: -2383935011693715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_6
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 220
+        width: 54
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4544785, y: 0.19139512}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd18e2804fbd8244b578cfc97e7032c
+      internalID: -8273961401500166332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_7
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 217
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad089efb1230f24d8438b1b6cbf1fd8
+      internalID: -2718890701253235316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_8
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 172
+        width: 66
+        height: 48
+      alignment: 9
+      pivot: {x: 0.37444514, y: -0.004119555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2412b5f9fcce824f900ca56edd0200e
+      internalID: -767445541412111136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_9
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 172
+        width: 61
+        height: 39
+      alignment: 9
+      pivot: {x: 0.4025128, y: 0.0050706128}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a999b5c9274401c429b4bf4366926e1b
+      internalID: 4061528868909537422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 172
+        width: 68
+        height: 39
+      alignment: 9
+      pivot: {x: 0.35718042, y: -0.0003689497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a63b224a1c54e84d871c27dacf017b2
+      internalID: 1513069496699232004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_11
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 172
+        width: 69
+        height: 39
+      alignment: 9
+      pivot: {x: 0.35918748, y: 0.000000391251}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93b03fc0bc9aa74d92ae6c11a1a3be0
+      internalID: 5164611020294203457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_12
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 172
+        width: 71
+        height: 39
+      alignment: 9
+      pivot: {x: 0.34490108, y: 0.0050706128}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4daa2b8b27a4d704da1bbb5aceb55dda
+      internalID: -2489947087447948796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 172
+        width: 72
+        height: 39
+      alignment: 9
+      pivot: {x: 0.3418558, y: -0.00028326572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b997ad298833d647a76a81dfacd4a23
+      internalID: 8497021833519539441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_20
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 121
+        width: 67
+        height: 35
+      alignment: 9
+      pivot: {x: 0.3269212, y: 0.0000002179827}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77cde483c8a35824fa31638d4dd7e3a3
+      internalID: -5577077443730379243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_21
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 125
+        width: 67
+        height: 28
+      alignment: 9
+      pivot: {x: 0.27491668, y: 0.006273542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c838280ae07554f84b3744dd377a52
+      internalID: 2363125386209561778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_22
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 130
+        width: 67
+        height: 22
+      alignment: 9
+      pivot: {x: 0.26998675, y: -0.0005021529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd2bd66346419c45a219424be4e086c
+      internalID: 8325777497132476141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_23
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 132
+        width: 65
+        height: 17
+      alignment: 9
+      pivot: {x: 0.23314984, y: 0.0006498449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9253cc2be71944fba0f63d5ace6555
+      internalID: -1331273437008938611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_24
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 132
+        width: 58
+        height: 16
+      alignment: 9
+      pivot: {x: 0.27578, y: 0.0000009536743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3694a432fb2134aa924cc248c1de18
+      internalID: 5816642885962824338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_25
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 101
+        width: 216
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c43065ce68ee64faf84fd77880b84e
+      internalID: -7156179168821427761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 49
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7800b2b15c9294787142aa8205b9db
+      internalID: -3454126132942989100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_27
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 47
+        width: 49
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844d7c169cff2614ea08df49168cadb4
+      internalID: 2525801500669878407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_28
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 47
+        width: 49
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81b249747f01d44ca3738ceda7f3adf
+      internalID: -4380457981071222675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_29
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 47
+        width: 49
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10baffad967857045bd2a61fb540130a
+      internalID: -175641890013611183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_30
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 47
+        width: 49
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4fcce4259768748982dd1b4029a769
+      internalID: -6342883226303599650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_31
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 47
+        width: 49
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f371a28e1af7cc741a08d117dd62271d
+      internalID: -3699325975432309827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_32
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 47
+        width: 49
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899488bcd40cc6e4ba25d150edc56e6d
+      internalID: -5020959504627058699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 49
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20623ba9e09419c40b6f2710dfeb73ee
+      internalID: 2627163057098845177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_34
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 2
+        width: 49
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b161403a5af18dd478817def1280e169
+      internalID: -5131930568303631316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_35
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 2
+        width: 49
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970d42ab3b927c0468954928b114abd4
+      internalID: -8946187476348173695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_36
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2
+        width: 49
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6df9086a9f2a3245b551f2e3b6acbda
+      internalID: 404219519796980790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_37
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 2
+        width: 49
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491de17c8f1321c438021408a9786516
+      internalID: 2295956032664379277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_38
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2
+        width: 49
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b8de3395b94df43a0000e9d26e0a15
+      internalID: -1860563454929590475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DatePlayerFight_39
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2
+        width: 49
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bc9850b498ffa46801b7331f5d2af6
+      internalID: 1477934173389360464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b8e0741e8e82d4944bb848bd968e9326
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
